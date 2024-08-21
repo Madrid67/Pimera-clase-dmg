@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Iniciar Sesión</title>
+</head>
+<body>
+ <h1>Iniciar Sesión</h1>
+ <form>
+ <table>
+ <tr>
+ <td><label>Usuario:</label></td>
+ <td><input type="text" name="usuario" required></td>
+ </tr>
+ <tr>
+ <td><label>Contraseña:</label></td>
+ <td><input type="password" name="contraseña" required></td>
+ </tr>
+ </table>
+ <p><input type="submit" value="Iniciar Sesión" onclick="iniciarSesion()"></p>
+ <p><a href="#">¿Olvidó su contraseña?</a></p>
+ </form>
+ <footer>
+ <p>&copy; inicio de sesion sin etiquetas</p>
+ </footer>
+ 
+ <script>
+  function iniciarSesion() {
+   alert("Inicio de sesión exitoso!");
+  }
+ </script>
+</body>
+</html>
